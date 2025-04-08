@@ -1,1 +1,1 @@
-rootProject.name = "EmmyLua2-AttachDebugger"
+rootProject.name = "EmmyLua-AttachDebugger"

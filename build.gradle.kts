@@ -29,7 +29,7 @@ data class BuildData(
     val ideaSDKVersion: String,
     val sinceBuild: String,
     val untilBuild: String,
-    val archiveName: String = "EmmyLua2-AttachDebugger",
+    val archiveName: String = "EmmyLua-AttachDebugger",
     val jvmTarget: String = "17",
     val targetCompatibilityLevel: JavaVersion = JavaVersion.VERSION_17,
     // https://github.com/JetBrains/gradle-intellij-plugin/issues/403#issuecomment-542890849
@@ -46,7 +46,7 @@ val buildDataList = listOf(
     )
 )
 
-group = "com.cppcxy"
+group = "com.tang"
 val emmyluaDebuggerVersion = "1.8.2"
 val emmyluaDebuggerProjectUrl = "https://github.com/EmmyLua/EmmyLuaDebugger"
 
@@ -67,7 +67,7 @@ intellij {
     version.set(buildVersionData.ideaSDKVersion)
     type.set(buildVersionData.type) // Target IDE Platform
     sandboxDir.set("${project.buildDir}/${buildVersionData.ideaSDKShortVersion}/idea-sandbox")
-    plugins.set(listOf("com.cppcxy.Intellij-EmmyLua:0.7.1.20-IDEA242"))
+    plugins.set(listOf("com.tang.Intellij-EmmyLua:1.4.0.13-IDEA243"))
 }
 
 
