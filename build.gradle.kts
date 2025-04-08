@@ -67,7 +67,7 @@ intellij {
     version.set(buildVersionData.ideaSDKVersion)
     type.set(buildVersionData.type) // Target IDE Platform
     sandboxDir.set("${project.buildDir}/${buildVersionData.ideaSDKShortVersion}/idea-sandbox")
-    plugins.set(listOf("com.tang:1.3.5.185-IDEA203"))
+    plugins.set(listOf("com.tang:1.4.14-IDEA242"))
 }
 
 
