@@ -1,3 +1,3 @@
-# EmmyLua2-AttachDebugger
+# EmmyLua-AttachDebugger
 
 a fork for CppCXY/EmmyLua-AttachDebugger

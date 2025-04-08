@@ -63,7 +63,7 @@ repositories {
 }
 
 intellij {
-    pluginName.set("EmmyLua2-AttachDebugger")
+    pluginName.set("EmmyLua-AttachDebugger")
     version.set(buildVersionData.ideaSDKVersion)
     type.set(buildVersionData.type) // Target IDE Platform
     sandboxDir.set("${project.buildDir}/${buildVersionData.ideaSDKShortVersion}/idea-sandbox")
