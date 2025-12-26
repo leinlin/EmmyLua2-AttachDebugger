@@ -48,7 +48,7 @@ val buildDataList = listOf(
 
 group = "com.tang"
 val emmyluaDebuggerVersion = "1.8.6"
-val emmyluaDebuggerProjectUrl = "https://github.com/EmmyLua/EmmyLuaDebugger"
+val emmyluaDebuggerProjectUrl = "https://github.com/leinlin/EmmyLuaDebugger"
 
 val buildVersion = System.getProperty("IDEA_VER") ?: buildDataList.first().ideaSDKShortVersion
 
